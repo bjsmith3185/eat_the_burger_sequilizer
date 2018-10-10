@@ -12,13 +12,11 @@ module.exports = function (sequelize, DataTypes) {
             }
         },
 
-        // customer: {
-        //     type: DataTypes.STRING,
-        //     allowNull: false,
-        //     validate: {
-        //         len: [1,140]
-        //     }
-        // },
+        customer_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+            
+        },
         
         devoured: {
             type: DataTypes.BOOLEAN,
