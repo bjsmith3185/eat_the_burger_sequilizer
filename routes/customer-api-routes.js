@@ -16,17 +16,17 @@ module.exports = function (app) {
 //   });
 
 
-  app.post("/api/add", function (req, res) {
-    console.log(req.body.name);
-    db.Customers.create({
-      customer_name: req.body.customer,
+  // app.post("/api/add", function (req, res) {
+  //   console.log(req.body.name);
+  //   db.Customers.create({
+  //     customer_name: req.body.customer,
  
 
-    }).then(function (result) {
-      res.redirect("/");
-      // res.json(result);
-    });
-  });
+  //   }).then(function (result) {
+  //     res.redirect("/");
+  //     // res.json(result);
+  //   });
+  // });
 
   // DELETE route for deleting todos. We can get the id of the todo we want to delete from
   // req.params.id

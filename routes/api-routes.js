@@ -9,7 +9,7 @@ module.exports = function (app) {
       var burgers = {
         burgers: data
       }
-      res.render("index3", burgers)
+      res.render("index", burgers)
 
 
     });
@@ -48,17 +48,17 @@ module.exports = function (app) {
   //------------ routes for customers model -------------
 
 
-  app.post("/api/new", function (req, res) {
-    console.log("its getting to the routes file!!!!!")
-    console.log(req.body);
-    db.Customers.create({
-     customer_name: req.body.name,
+  // app.post("/api/new", function (req, res) {
+  //   console.log("its getting to the routes file!!!!!")
+  //   console.log(req.body);
+  //   db.Customers.create({
+  //    customer_name: req.body.name,
     
-    }).then(function (result) {
-      res.redirect("/");
-      // res.json(result);
-    });
-  });
+  //   }).then(function (result) {
+  //     res.redirect("/");
+  //     // res.json(result);
+  //   });
+  // });
 
 
 

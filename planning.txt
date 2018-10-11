@@ -1,5 +1,13 @@
 
+currently
+- burger is added to the burger table
+- customer name is added to customer table
 
+- need to get the customer id into a data-type
+- when the devour button is clicked
+    - add the customer id to the burger table with the burger id
+
+    
 
 
 --------------------------------------------
