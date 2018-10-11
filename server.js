@@ -30,7 +30,7 @@ app.use(express.static(__dirname + "/public"))
 // Routes
 // =============================================================
 require("./routes/api-routes.js")(app);
-require("./routes/customer-api-routes.js")(app);
+// require("./routes/customer-api-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
