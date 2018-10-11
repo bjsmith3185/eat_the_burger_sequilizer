@@ -8,7 +8,6 @@ $(document).ready(function() {
    function editCustomer() {
     customer = $(this).val().trim();
     console.log("this is the customer value: " + customer);
-    
   }
 
 
@@ -16,7 +15,6 @@ $(document).ready(function() {
   
     console.log("going to updateCustomer()")
     updateCustomer(customer);
-    
   }
 
   function updateCustomer(customer) {
